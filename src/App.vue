@@ -1,23 +1,33 @@
 <template>
   <div id="app">
-    <testComp/>
+    <h1>hallo :)</h1>
+
+    <article>
+      <p>
+        test test
+      </p>
+    </article>
+    <QueryResultaten/>
   
   </div>
 </template>
 
 <script>
-import testComp from './components/testComp.vue'
+import QueryResultaten from './components/QueryResultaten.vue'
 
 
 export default {
   name: 'app',
   components: {
-    testComp,
+    QueryResultaten,
 
   }
 }
 </script>
 
 <style>
+  article {
+    background-color: lightblue;
+  }
 
 </style>

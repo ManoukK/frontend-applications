@@ -43,13 +43,14 @@
             //Test if the endpoint is up and print result to page 
             // (you can improve this script by making the next part of this function wait for a succesful result)
             fetch(url)
-
+             // .then(res => tekst.innerText = "Status of API: " + res.status)
             // Call the url with the query attached, output data
             fetch(url+"?query="+ encodeURIComponent(query) +"&format=json")
                 .then(res => res.json())
                 .then(json => {
                     console.log(json)
                     console.table(json.results.bindings);
+                    console.log(json.results.bindings[0].catName.value);
                 })
             }
         }
