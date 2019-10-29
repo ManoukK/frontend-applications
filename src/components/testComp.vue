@@ -62,3 +62,17 @@
         background-color: #333333;
     }
 </style>
+
+
+
+
+
+
+
+
+#Variabelen definiëren
+                    ?cho dc:title ?title . #Title
+                    ?cho edm:isRelatedTo ?cat . #Categorie
+                    ?cat skos:prefLabel ?catName .
+                    ?cho dc:type ?type .
+                    ?cho edm:isShownBy ?img .
