@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <h1>hallo :)</h1>
-
     <article>
       <p>
         test test
       </p>
     </article>
+
     <QueryResultaten/>
+    
   
   </div>
 </template>
