@@ -9,7 +9,7 @@ te maken met de gegevens uit de database. Het is een vrije opdracht en je kan al
 
 ## Het concept 
 Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van Afrika klikken 
-om inspiratie te krijgen van de heldere kleuren en mooie vormen van oude sieraden uit Afrika. 
+om inspiratie te krijgen van de heldere kleuren en mooie vormen van oude sieraden uit Afrika. Ik heb gekozen voor Afrika omdat het bekend staat aan de felle kleuren en vele vormen. Ik vind het zelf een hele mooie stijl en wilde andere laten zien dat je er veel inspiratie kan uithalen. 
 
 ## Beschrijving
 Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je 
