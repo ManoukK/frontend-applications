@@ -83,16 +83,15 @@ Dus ook zij bedankt.
 
 ## Ideeën voor de toekomst
 -	Styling aantrekkelijker maken
--	Kunnen filteren op soort sieraad 
--	
+-	Kunnen filteren op soort sieraad en soort materiaal
+-	Wellicht ook andere werelddelen toevoegen
 
 ## Wat ik heb geleerd
 -	Ik begrijp (ongeveer) hoe de terminal werkt. Er zullen zeker meer features zijn die ik nog niet weet maar de basis snap ik.
 -	Ik kan nu met Vue werken.
 -	Ik weet hoe je met SPARQL informatie kan ophalen uit een database.
 -	Common en uncommon javascript/vue problemen oplossen. 
--	Ik Kan gebruik maken van de functies van Github. Zoals een README maken (die duidelijk is voor anderen) en 
+-	Ik kan gebruik maken van de functies van Github. Zoals een README maken (die duidelijk is voor anderen) en 
 gebruik maken van de wiki om het proces bij te houden.  
--	(AANVULLEN)
 
  
