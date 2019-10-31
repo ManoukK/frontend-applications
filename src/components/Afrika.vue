@@ -8,7 +8,7 @@
         <button v-on:click="getLipSieraden">Lip sieraden</button>
         <button v-on:click="getHoofdSieraden">Hoofd sieraden</button>
 
-        <!--code van Kim - aangepast naar wat ik zelf wilde zien -->
+        <!--code van Kim - aangepast naar wat ik zelf wilde zien. Hier worden de opgehaalde items in geloopt-->
         <div id="articlestyle">
             <article v-for="item in items" v-bind:key="item.title.value"> 
                 <h3>{{ item.title.value }}</h3>
@@ -46,7 +46,7 @@ import queries from "../queries.js"
         queries
     },
     
-    //code van Laurens
+    //code van Laurens hier word de data uit een query gehaald en word het omgezet in json
     methods: {
         runQuery(url, query) {
             fetch(url+ "?query=" + encodeURIComponent(query) + "&format=json")
@@ -68,6 +68,7 @@ import queries from "../queries.js"
             .catch(err => console.log(err));
         },
         
+        // hier zeg ik uit welke query er data opgehaald moet worden
         getAfrikaSieraden() {
             this.runQuery(this.url, queries.Afrika);
         },

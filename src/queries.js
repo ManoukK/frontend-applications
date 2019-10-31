@@ -11,7 +11,6 @@ export default {
              WHERE {
                 <https://hdl.handle.net/20.500.11840/termmaster13201> skos:narrower* ?type .
                 
-                
 
                 ?cho edm:object ?type .
                 ?cho dc:title ?title .
@@ -36,7 +35,6 @@ export default {
         SELECT ?cho ?title ?type ?typeLabel ?img ?placeInAfrikaLabel
          WHERE {
             <https://hdl.handle.net/20.500.11840/termmaster13221> skos:narrower* ?type .
-            
             
 
             ?cho edm:object ?type .
