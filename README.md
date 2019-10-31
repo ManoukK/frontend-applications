@@ -8,8 +8,8 @@ ontzettend veel foto’s en objecten bevat uit allerlei landen en tijden. Voor o
 te maken met de gegevens uit de database. Het is een vrije opdracht en je kan alle kanten hiermee opgaan.
 
 ## Het concept 
-Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van Afrika klikken 
-om inspiratie te krijgen van de heldere kleuren en mooie vormen van oude sieraden uit Afrika. Ik heb gekozen voor Afrika omdat het bekend staat aan de felle kleuren en vele vormen. Ik vind het zelf een hele mooie stijl en wilde andere laten zien dat je er veel inspiratie kan uithalen. 
+Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van de wereld klikken en daar binnen kunnen zij door de verschillende delen van de continenten heen klikken om inspiratie te krijgen. Waarom sieraden? Sieraden geven detail aan een outfit en daar mag best meer aandacht aangegeven worden hoe mooi sieraden kunnen zijn. 
+![photo_2019-10-31_12-12-52](https://user-images.githubusercontent.com/45541885/67942607-7bcc3900-fbd8-11e9-956a-c1ec3274b94b.jpg)
 
 ## Beschrijving
 Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je 
