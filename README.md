@@ -84,7 +84,8 @@ Dus ook zij bedankt.
 ## Ideeën voor de toekomst
 -	Styling aantrekkelijker maken
 -	Kunnen filteren op soort sieraad en soort materiaal
--	A werelddelen toevoegen
+-	Werelddelen toevoegen
+- Betere queries schrijven die beter resultaat tonen
 
 ## Wat ik heb geleerd
 -	Ik begrijp (ongeveer) hoe de terminal werkt. Er zullen zeker meer features zijn die ik nog niet weet maar de basis snap ik.
