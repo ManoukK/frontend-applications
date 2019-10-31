@@ -1,34 +1,44 @@
 <template>
   <div id="app">
-    <h1>hallo :)</h1>
-    <article>
-      <p>
-        test test
-      </p>
-    </article>
-
-    <QueryResultaten/>
+    <h1>Onze sieraden collectie</h1>
+    <navigatieFilter/>
     
-  
+    <Afrika/>
+
+    <!--<QueryResultaten/>-->
+
   </div>
 </template>
 
 <script>
-import QueryResultaten from './components/QueryResultaten.vue'
+import navigatieFilter from './components/navigatieFilter.vue'
+import Afrika from './components/Afrika.vue'
+
+
+//import QueryResultaten from './components/QueryResultaten.vue'
 
 
 export default {
   name: 'app',
   components: {
-    QueryResultaten,
+    navigatieFilter,
+    Afrika,
 
-  }
+    //QueryResultaten,
+
+  },
 }
 </script>
 
 <style>
-  article {
-    background-color: lightblue;
-  }
+body {
+  background-color: #ffffff;
+}
+
+div h1 {
+  text-align: center;
+}
+
+
 
 </style>
