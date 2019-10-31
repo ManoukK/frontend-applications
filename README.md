@@ -8,15 +8,19 @@ ontzettend veel foto’s en objecten bevat uit allerlei landen en tijden. Voor o
 te maken met de gegevens uit de database. Het is een vrije opdracht en je kan alle kanten hiermee opgaan.
 
 ## Het concept 
-Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van Afrika klikken 
-om inspiratie te krijgen van de heldere kleuren en mooie vormen van oude sieraden uit Afrika. Ik heb gekozen voor Afrika omdat het bekend staat aan de felle kleuren en vele vormen. Ik vind het zelf een hele mooie stijl en wilde andere laten zien dat je er veel inspiratie kan uithalen. 
+Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van de wereld klikken en daar binnen kunnen zij door de verschillende delen van de continenten heen klikken om inspiratie te krijgen. Waarom sieraden? Sieraden geven detail aan een outfit en daar mag best meer aandacht aangegeven worden hoe mooi sieraden kunnen zijn. 
+
+![photo_2019-10-31_12-12-52](https://user-images.githubusercontent.com/45541885/67942607-7bcc3900-fbd8-11e9-956a-c1ec3274b94b.jpg)
+##### Mijn idee uitgewerkt in een schets
+
+![Schermafbeelding 2019-10-31 om 15 08 38](https://user-images.githubusercontent.com/45541885/67954491-5dbf0280-fbf1-11e9-82ea-3fb43285b9ce.png)
+##### Mijn uiteindelijke uitwerking op donderdag 31 oktober
 
 ## Beschrijving
 Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je 
-dit installeert. Op de website heb je keuze uit verschillende delen van Afrika, elk deel bevat andere stijlen sieraden. 
-Door een deel te selecteren krijg je sieraden uit de database van het tropen museum. De resultaten zijn een mix van 
-verschillende soorten sieraden. Zo hou je het aanbod divers en krijg je genoeg resultaat om er inspiratie uit te halen. 
-AFBEELDINGEN VAN DE SITE!!!!!
+dit installeert. Op de website heb je keuze uit verschillende sieraden ik heb hier voor gekozen omdat het nog best moeilijk was om een query te schrijven voor sieraden in bepaalde gebieden. Dit heb ik dus veranderd naar verschillende soorten sieraden.
+Door een deel te selecteren krijg je sieraden uit de database van het tropen museum. De resultaten zijn nu een mix van 
+sieraden uit verschillende landen maar normaal gesproken zouden het verschillende soorten sieraden moeten zijn uit 1 deel van een continent. Zo hou je het aanbod divers en krijg je genoeg resultaat om er inspiratie uit te halen. 
 
 ## Installatie 
 Om Vue te kunnen gebruiken heb je ook Homebrew nodig als je Macgebruiker bent. Homebrew maakt het makkelijk om npm en 
@@ -33,14 +37,13 @@ Na de installatie check of het is gelukt door:
 vue --version
 ```
 
-Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen dit project gebruiken. 
+Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen dit project gebruiken. Het clonen kan je in mijn frontend-applications repo doen via de groene knop rechts boven "clone or download"
 Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getting-started-with-vuejs-for-web-and-native-285dc64f0f0d 
 
 ## Features
-Wat nog moet komen: (hopelijk kan je op de site op een deel uit Afrika klikken en krijg je sieraden te zien uit dat deel. 
-Als je verder wilt klikken krijg je een detail pagina te zien te zien met informatie over het object)
+Een feature die er in zit is dat je op een van de knoppen kan klikken onder "sieraden voor Afrika". Dit roept een andere query op waardoor je andere resultaten krijgt. Op deze manier kan de gebruiker door de site navigeren. 
 
-In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. 
+In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. Ik heb ook nog 3 "andere" queries geschreven voor hoofd, lip en borst sieraden. De queries zijn precies hetzelfde als de query hieronder alleen heeft de link (onder SELECT) een andere termmaster code. 
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -84,7 +87,9 @@ Dus ook zij bedankt.
 ## Ideeën voor de toekomst
 -	Styling aantrekkelijker maken
 -	Kunnen filteren op soort sieraad en soort materiaal
--	Wellicht ook andere werelddelen toevoegen
+-	Werelddelen toevoegen
+- Binnen de werelddelen op gebied kunnen "filteren"
+- Betere queries schrijven die beter resultaat tonen
 
 ## Wat ik heb geleerd
 -	Ik begrijp (ongeveer) hoe de terminal werkt. Er zullen zeker meer features zijn die ik nog niet weet maar de basis snap ik.
