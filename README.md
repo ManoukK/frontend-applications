@@ -37,7 +37,7 @@ Na de installatie check of het is gelukt door:
 vue --version
 ```
 
-Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen dit project gebruiken. 
+Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen dit project gebruiken. Het clonen kan je in mijn frontend-applications repo doen via de groene knop rechts boven "clone or download"
 Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getting-started-with-vuejs-for-web-and-native-285dc64f0f0d 
 
 ## Features
