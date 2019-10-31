@@ -37,10 +37,9 @@ Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen
 Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getting-started-with-vuejs-for-web-and-native-285dc64f0f0d 
 
 ## Features
-Wat nog moet komen: (hopelijk kan je op de site op een deel uit Afrika klikken en krijg je sieraden te zien uit dat deel. 
-Als je verder wilt klikken krijg je een detail pagina te zien te zien met informatie over het object)
+Een feature die er in zit is dat je op een van de knoppen kan klikken onder "sieraden voor Afrika". Dit roept een andere query op waardoor je andere resultaten krijgt. Op deze manier kan de gebruiker door de site navigeren. 
 
-In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. 
+In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. Ik heb ook nog 3 "andere" queries geschreven voor hoofd, lip en borst sieraden. De queries zijn precies hetzelfde als de query hieronder alleen heeft de link (onder SELECT) een andere termmaster code. 
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -85,6 +84,7 @@ Dus ook zij bedankt.
 -	Styling aantrekkelijker maken
 -	Kunnen filteren op soort sieraad en soort materiaal
 -	Werelddelen toevoegen
+- Binnen de werelddelen op gebied kunnen "filteren"
 - Betere queries schrijven die beter resultaat tonen
 
 ## Wat ik heb geleerd
