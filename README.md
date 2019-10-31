@@ -14,7 +14,7 @@ Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door 
 
 ## Beschrijving
 Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je 
-dit installeert. Op de website heb je keuze uit verschillende delen van Afrika, elk deel bevat andere stijlen sieraden. 
+dit installeert. Op de website heb je keuze uit verschillende sieraden ik heb hier voor gekozen omdat het nog best moeilijk was om een query te schrijven voor sieraden in bepaalde gebieden. Dit heb ik dus veranderd naar verschillende soorten sieraden.
 Door een deel te selecteren krijg je sieraden uit de database van het tropen museum. De resultaten zijn een mix van 
 verschillende soorten sieraden. Zo hou je het aanbod divers en krijg je genoeg resultaat om er inspiratie uit te halen. 
 
