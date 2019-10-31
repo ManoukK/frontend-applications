@@ -9,7 +9,7 @@ te maken met de gegevens uit de database. Het is een vrije opdracht en je kan al
 
 ## Het concept 
 Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van Afrika klikken 
-om inspiratie te krijgen van de heldere kleuren en mooie vormen van oude sieraden uit Afrika. 
+om inspiratie te krijgen van de heldere kleuren en mooie vormen van oude sieraden uit Afrika. Ik heb gekozen voor Afrika omdat het bekend staat aan de felle kleuren en vele vormen. Ik vind het zelf een hele mooie stijl en wilde andere laten zien dat je er veel inspiratie kan uithalen. 
 
 ## Beschrijving
 Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je 
@@ -40,11 +40,34 @@ Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getti
 Wat nog moet komen: (hopelijk kan je op de site op een deel uit Afrika klikken en krijg je sieraden te zien uit dat deel. 
 Als je verder wilt klikken krijg je een detail pagina te zien te zien met informatie over het object)
 
---sparql code-- 
+In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. 
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?cho ?title ?type ?typeLabel ?img ?placeInAfrikaLabel WHERE {
+<https://hdl.handle.net/20.500.11840/termmaster13201> skos:narrower* ?type .
+                
+?cho edm:object ?type .
+?cho dc:title ?title .
+?cho edm:isShownBy ?img .
+             
+?cho dct:spatial ?placeInAfrika .
+?type skos:prefLabel ?typeLabel .
+
+?placeInAfrika skos:prefLabel ?placeInAfrikaLabel .
+} LIMIT 20
+```
 
 ## Dank aan wie mij verder hebben geholpen
 -	Laurens Aarnoudse
 -	Wessel Smit
+- Ivo Zandhuis
 -	Mijn Vue team. Iedereen heeft veel kennis gedeeld en vaak geholpen met kleine problemen/vragen. 
 (Kim Garrad, Wessel Smit, Roy Csuka, Sjors Eveleens, Coen, Wiebe, Joan, Deanna Bosschert)
 
@@ -60,16 +83,15 @@ Dus ook zij bedankt.
 
 ## Ideeën voor de toekomst
 -	Styling aantrekkelijker maken
--	Kunnen filteren op soort sieraad 
--	
+-	Kunnen filteren op soort sieraad en soort materiaal
+-	Wellicht ook andere werelddelen toevoegen
 
 ## Wat ik heb geleerd
 -	Ik begrijp (ongeveer) hoe de terminal werkt. Er zullen zeker meer features zijn die ik nog niet weet maar de basis snap ik.
 -	Ik kan nu met Vue werken.
 -	Ik weet hoe je met SPARQL informatie kan ophalen uit een database.
 -	Common en uncommon javascript/vue problemen oplossen. 
--	Ik Kan gebruik maken van de functies van Github. Zoals een README maken (die duidelijk is voor anderen) en 
+-	Ik kan gebruik maken van de functies van Github. Zoals een README maken (die duidelijk is voor anderen) en 
 gebruik maken van de wiki om het proces bij te houden.  
--	(AANVULLEN)
 
  
