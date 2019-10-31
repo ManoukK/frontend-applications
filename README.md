@@ -40,11 +40,34 @@ Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getti
 Wat nog moet komen: (hopelijk kan je op de site op een deel uit Afrika klikken en krijg je sieraden te zien uit dat deel. 
 Als je verder wilt klikken krijg je een detail pagina te zien te zien met informatie over het object)
 
---sparql code-- 
+In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. 
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?cho ?title ?type ?typeLabel ?img ?placeInAfrikaLabel WHERE {
+<https://hdl.handle.net/20.500.11840/termmaster13201> skos:narrower* ?type .
+                
+?cho edm:object ?type .
+?cho dc:title ?title .
+?cho edm:isShownBy ?img .
+             
+?cho dct:spatial ?placeInAfrika .
+?type skos:prefLabel ?typeLabel .
+
+?placeInAfrika skos:prefLabel ?placeInAfrikaLabel .
+} LIMIT 20
+```
 
 ## Dank aan wie mij verder hebben geholpen
 -	Laurens Aarnoudse
 -	Wessel Smit
+- Ivo Zandhuis
 -	Mijn Vue team. Iedereen heeft veel kennis gedeeld en vaak geholpen met kleine problemen/vragen. 
 (Kim Garrad, Wessel Smit, Roy Csuka, Sjors Eveleens, Coen, Wiebe, Joan, Deanna Bosschert)
 
