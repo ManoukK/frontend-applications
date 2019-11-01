@@ -8,7 +8,7 @@ ontzettend veel foto’s en objecten bevat uit allerlei landen en tijden. Voor o
 te maken met de gegevens uit de database. Het is een vrije opdracht en je kan alle kanten hiermee opgaan.
 
 ## Het concept 
-Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van de wereld klikken en daar binnen kunnen zij door de verschillende delen van de continenten heen klikken om inspiratie te krijgen. Waarom sieraden? Sieraden geven detail aan een outfit en daar mag best meer aandacht aangegeven worden hoe mooi sieraden kunnen zijn. 
+Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van de wereld klikken en daarbinnen kunnen zij door de verschillende delen van de continenten heen klikken om inspiratie te krijgen. Waarom sieraden? Sieraden geven detail aan een outfit en daar mag best meer aandacht aangegeven worden hoe mooi sieraden kunnen zijn. Omdat ontwerpers vaak werken met een moodboard zit er ook een functie bij dat je sieraden kan opslaan in je favorietenlijst. Vanuit daar kan de ontwerper op een digitaal canvas moodboards maken met de sieraden die hem/haar inspireert. 
 
 ![photo_2019-10-31_12-12-52](https://user-images.githubusercontent.com/45541885/67942607-7bcc3900-fbd8-11e9-956a-c1ec3274b94b.jpg)
 ##### Mijn idee uitgewerkt in een schets
@@ -17,10 +17,11 @@ Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door 
 ##### Mijn uiteindelijke uitwerking op donderdag 31 oktober
 
 ## Beschrijving
-Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je 
-dit installeert. Op de website heb je keuze uit verschillende sieraden ik heb hier voor gekozen omdat het nog best moeilijk was om een query te schrijven voor sieraden in bepaalde gebieden. Dit heb ik dus veranderd naar verschillende soorten sieraden.
+Ik heb gebruik gemaakt van het framework Vue wat samenhangt met Homebrew. Onder het kopje installatie leg ik uit hoe je dit installeert. Op de website heb je keuze uit verschillende sieraden ik heb hiervoor gekozen omdat het nog best moeilijk was om een query te schrijven voor sieraden in bepaalde gebieden. Dit heb ik dus veranderd naar verschillende soorten sieraden.
 Door een deel te selecteren krijg je sieraden uit de database van het tropen museum. De resultaten zijn nu een mix van 
 sieraden uit verschillende landen maar normaal gesproken zouden het verschillende soorten sieraden moeten zijn uit 1 deel van een continent. Zo hou je het aanbod divers en krijg je genoeg resultaat om er inspiratie uit te halen. 
+
+Elke sieraad kan opgeslagen worden in een favorieten lijst. Zo kan de gebruiker later terugkomen en behoud hij zijn inspirerende sieraden. Met de opgeslagen sieraden kan de gebruiker een moodboard maken. Dit gebeurt op een leeg canvas en de gebruiker kan die vullen met de sieraden die hem inspireert. Zo geef je de gebruiker een mogelijkheid om ook echt iets met de sieraden te doen. Ze kunnen het uitprinten en gebruiken tijdens het ontwerpen. Dit zou alleen kunnen werken als de gebruiker een account aanmaakt. 
 
 ## Installatie 
 Om Vue te kunnen gebruiken heb je ook Homebrew nodig als je Macgebruiker bent. Homebrew maakt het makkelijk om npm en 
@@ -41,7 +42,7 @@ Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen
 Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getting-started-with-vuejs-for-web-and-native-285dc64f0f0d 
 
 ## Features
-Een feature die er in zit is dat je op een van de knoppen kan klikken onder "sieraden voor Afrika". Dit roept een andere query op waardoor je andere resultaten krijgt. Op deze manier kan de gebruiker door de site navigeren. 
+Een feature die erin zit is dat je op een van de knoppen kan klikken onder "sieraden voor Afrika". Dit roept een andere query op waardoor je andere resultaten krijgt. Op deze manier kan de gebruiker door de site navigeren. 
 
 In sparql heb ik een query geschreven die data uit de database haalt van het Tropen museum. Om de query te grbuiken moet je de prefixes erin houden. Dit voorkomt de meeste errors. Ik heb ook nog 3 "andere" queries geschreven voor hoofd, lip en borst sieraden. De queries zijn precies hetzelfde als de query hieronder alleen heeft de link (onder SELECT) een andere termmaster code. 
 
@@ -86,10 +87,13 @@ Dus ook zij bedankt.
 
 ## Ideeën voor de toekomst
 -	Styling aantrekkelijker maken
--	Kunnen filteren op soort sieraad en soort materiaal
+-	Kunnen filteren op soort materiaal
 -	Werelddelen toevoegen
 - Binnen de werelddelen op gebied kunnen "filteren"
 - Betere queries schrijven die beter resultaat tonen
+- Account feature toevoegen zodat gebruikers sieraden kunnen opslaan
+- Favorieten knop toevoegen met de mogelijk om favoriete sieraden op te slaan
+- Canvas feature toevoegen zodat gebruikers moodboards kunnen maken
 
 ## Wat ik heb geleerd
 -	Ik begrijp (ongeveer) hoe de terminal werkt. Er zullen zeker meer features zijn die ik nog niet weet maar de basis snap ik.
@@ -97,6 +101,5 @@ Dus ook zij bedankt.
 -	Ik weet hoe je met SPARQL informatie kan ophalen uit een database.
 -	Common en uncommon javascript/vue problemen oplossen. 
 -	Ik kan gebruik maken van de functies van Github. Zoals een README maken (die duidelijk is voor anderen) en 
-gebruik maken van de wiki om het proces bij te houden.  
+gebruik maken van de wiki om het proces bij te houden
 
- 
