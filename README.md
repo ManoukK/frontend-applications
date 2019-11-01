@@ -10,8 +10,11 @@ te maken met de gegevens uit de database. Het is een vrije opdracht en je kan al
 ## Het concept 
 Deze website biedt inspiratie voor mode en sieraden ontwerpers. Zij kunnen door de verschillende delen van de wereld klikken en daarbinnen kunnen zij door de verschillende delen van de continenten heen klikken om inspiratie te krijgen. Waarom sieraden? Sieraden geven detail aan een outfit en daar mag best meer aandacht aangegeven worden hoe mooi sieraden kunnen zijn. Omdat ontwerpers vaak werken met een moodboard zit er ook een functie bij dat je sieraden kan opslaan in je favorietenlijst. Vanuit daar kan de ontwerper op een digitaal canvas moodboards maken met de sieraden die hem/haar inspireert. 
 
-![photo_2019-10-31_12-12-52](https://user-images.githubusercontent.com/45541885/67942607-7bcc3900-fbd8-11e9-956a-c1ec3274b94b.jpg)
-##### Mijn idee uitgewerkt in een schets
+![photo_2019-11-01_10-02-08](https://user-images.githubusercontent.com/45541885/68014008-b7293f00-fc8e-11e9-881a-475a7d906d7f.jpg)
+##### Mijn idee uitgewerkt in een schets (home pagina)
+
+![photo_2019-11-01_10-02-10](https://user-images.githubusercontent.com/45541885/68014042-cad4a580-fc8e-11e9-8e4e-9317f77f09bf.jpg)
+##### Mijn canvas idee uitgewerkt in een schets (canvas pagina)
 
 ![Schermafbeelding 2019-10-31 om 15 08 38](https://user-images.githubusercontent.com/45541885/67954491-5dbf0280-fbf1-11e9-82ea-3fb43285b9ce.png)
 ##### Mijn uiteindelijke uitwerking op donderdag 31 oktober
