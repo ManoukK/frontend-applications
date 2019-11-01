@@ -41,6 +41,36 @@ vue --version
 Als dat goed is gegaan zie je nu de versie en kan je door mijn project te clonen dit project gebruiken. Het clonen kan je in mijn frontend-applications repo doen via de groene knop rechts boven "clone or download"
 Mocht iets niet lukken kijk dan naar deze site: https://medium.com/js-dojo/getting-started-with-vuejs-for-web-and-native-285dc64f0f0d 
 
+## Data
+De query word omgezet in json. Elk object die word opgehaalt heeft zijn eigen values. Door de array die je terugkrijgt uit te klappen in de console zie je alle objecten. Elk object kan je verder uitklappen. Als je dubbel klikt op een van de termen die er onder komen te staan kan je de value zien die erbij hoort. Zie screenshot hieronder: 
+
+![Schermafbeelding 2019-11-01 om 09 56 47](https://user-images.githubusercontent.com/45541885/68013723-f86d1f00-fc8d-11e9-9563-b806897481f1.png)
+
+Hoe de query word omgezet in json gebeurd met deze code: (credit aan Laurens Aarnoudse)
+```
+methods: {
+        runQuery(url, query) {
+            fetch(url+ "?query=" + encodeURIComponent(query) + "&format=json")
+            .then(res => res.json())
+            .then(json => {
+                return json
+            })
+
+            .then(res => {
+                this.items = res.results.bindings; 
+                console.log("printing items 1",this.items);
+
+                //code van Wiebe (img http wordt omgezet in https)
+                this.items.forEach(function(i){
+                    i.img.value = i.img.value.replace("http", "https");
+                });
+            })
+
+            .catch(err => console.log(err));
+        },
+},        
+```
+
 ## Features
 Een feature die erin zit is dat je op een van de knoppen kan klikken onder "sieraden voor Afrika". Dit roept een andere query op waardoor je andere resultaten krijgt. Op deze manier kan de gebruiker door de site navigeren. 
 
